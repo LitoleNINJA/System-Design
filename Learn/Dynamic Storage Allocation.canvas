@@ -1,0 +1,14 @@
+{
+	"nodes":[
+		{"id":"50421fa839d005ea","type":"file","file":"Images/Pasted image 20250529205111.png","x":-700,"y":-140,"width":399,"height":160},
+		{"id":"1484e82eb048c42f","type":"text","text":"### What is an Allocator ?\n\n- Keeps track of which parts of memory are in use, and which are free.\n- Spend negligible time managing memory, and waste negligible space.\n- Data structures used to map location and size of free blocks:\n  - Linear list\n  - Totally/partially ordered tree\n  - Bitmap\n  - Some hybrid DS","x":120,"y":-700,"width":360,"height":340},
+		{"id":"e7d8946bf40d2024","type":"text","text":"Introduction","x":-140,"y":-555,"width":160,"height":50,"color":"6"},
+		{"id":"25533242137dfe61","type":"text","text":"Fragmentation","x":-140,"y":200,"width":180,"height":50},
+		{"id":"4058a937cd7fb999","type":"text","text":"### Internal Fragmentation\n\n- ","x":130,"y":0,"width":340,"height":370}
+	],
+	"edges":[
+		{"id":"1c62c041c8b7cfd4","fromNode":"50421fa839d005ea","fromSide":"right","toNode":"e7d8946bf40d2024","toSide":"left","label":"1"},
+		{"id":"b7fc2c5fabce0cad","fromNode":"e7d8946bf40d2024","fromSide":"right","toNode":"1484e82eb048c42f","toSide":"left"},
+		{"id":"a8829b1ca3bf381e","fromNode":"50421fa839d005ea","fromSide":"right","toNode":"25533242137dfe61","toSide":"left","label":"2"}
+	]
+}
