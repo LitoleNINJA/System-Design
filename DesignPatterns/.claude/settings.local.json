@@ -1,0 +1,9 @@
+{
+  "permissions": {
+    "allow": [
+      "WebFetch(domain:algomaster.io)",
+      "Bash(./gradlew.bat compileJava)",
+      "Bash(java -cp build/classes/java/main DesignPatterns.FactoryMethod.Exercise2_PaymentProcessor.PaymentProcessorDemo)"
+    ]
+  }
+}
