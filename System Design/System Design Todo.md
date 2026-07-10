@@ -1,0 +1,6 @@
+- [ ] [How PayPal Was Able to Support a Billion Transactions per Day With Only 8 Virtual Machines](https://newsletter.systemdesign.one/p/actor-model)
+- [ ] [8 Reasons Why WhatsApp Was Able to Support 50 Billion Messages a Day With Only 32 Engineers](https://newsletter.systemdesign.one/p/whatsapp-engineering)
+- [x] [How YouTube Was Able to Support 2.49 Billion Users With MySQL](https://newsletter.systemdesign.one/p/vitess-mysql)
+- [ ] [Slack Architecture](https://systemdesign.one/slack-architecture/)
+- [x] [Scaling a System from 0 to 100 million users](https://blog.algomaster.io/p/scaling-a-system-from-0-to-10-million-users)
+- [ ] 

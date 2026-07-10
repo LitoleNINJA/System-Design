@@ -1,0 +1,21 @@
+views:
+  - type: table
+    name: Table
+    filters:
+      and:
+        - file.path.contains("DSA/Problems")
+    order:
+      - file.name
+      - tags
+      - family
+      - time
+      - space
+      - pattern
+      - difficulty
+    sort:
+      - property: family
+        direction: ASC
+      - property: file.name
+        direction: DESC
+    columnSize:
+      note.time: 188
